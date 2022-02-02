@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(235, 227, 203);
+  background-color: rgb(252, 246, 228);
 }
 
 h4 {
@@ -48,16 +48,18 @@ input {
   padding: 0.6rem 1.1rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
-  color: crimson;
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
   margin: 1rem;
+  background-color: crimson;
+  color: white;
 }
 
 .btn:hover {
-  color: white;
-  background: crimson;
+  color: black;
+  background: white;
+  border: 1px solid black;
 }
 
 li {
